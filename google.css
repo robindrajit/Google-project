@@ -3,7 +3,7 @@ body{
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: skyblue;
+  background-color: red;
 }
 section{
   position: relative;
@@ -122,11 +122,25 @@ section .footer .row ul li a{
 }
 
 
+/*Desktop*/
+@media (min-width:1024px){
+
+}
+
+/*Tablet View*/
+@media (min-width:769px) and (max-width:1023px){
+  section header ul li button{
+      background-color: tomato;
+  }
+}
 
 
 
-
-
+/*Mobile View*/
+@media (max-width:768px){
+  section .main .searchbox .search{
+      width: 78%;
+  }
   section .main .searchbox .icons{
       width: 84%;
   }
